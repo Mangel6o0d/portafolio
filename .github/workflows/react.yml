@@ -4,11 +4,7 @@ on:
   push:
     branches: [develop, master]
   pull_request:
-<<<<<<< HEAD
     branches: [ develop, master ]
-=======
-    branches: [develop, master]
->>>>>>> develop
 
 jobs:
   build:
@@ -33,8 +29,4 @@ jobs:
     runs-on: ubuntu-latest
     needs: [test]
     steps:
-<<<<<<< HEAD
       - run: echo "🚀 Deploy listo!"
-=======
-      - run: echo "🚀 Deploy listo!"
->>>>>>> develop
